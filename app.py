@@ -7,7 +7,7 @@ import tensorflow as tf
 from flask import Flask, request, jsonify
 
 # Load your models
-binary_model = tf.keras.models.load_model('Binary_model.h5')
+binary_model = tf.keras.models.load_model('Binary_model_V1.h5')
 multiclass_model = tf.keras.models.load_model('Multiclass_model.h5')
 
 
